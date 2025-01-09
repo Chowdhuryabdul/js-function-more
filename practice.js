@@ -1,10 +1,10 @@
-/* function muliplication(num1, num2, num3, num4){
+function muliplication(num1, num2, num3, num4){
     const mulitiply = num1 * num2 * num3 * num4
     return mulitiply
 }
-console.log(muliplication(2, 3, 4, 5)) */
+console.log(muliplication(2, 3, 4, 5))
 
-/* function theNumber (number){
+function theNumber (number){
     if(number % 2 === 0){
         number = number * 2
     }else{
@@ -14,11 +14,11 @@ console.log(muliplication(2, 3, 4, 5)) */
 }
 
 const number1 = theNumber(1);
-console.log(number1) */
+console.log(number1)
 // const number2 = theNumber(3);
 // console.log(number2)
 
-/* function make_avg(numbers){
+function make_avg(numbers){
     let sum = 0;
     for(const number of numbers){
         sum = number + sum
@@ -30,8 +30,8 @@ console.log(number1) */
 
 const theArray = [12, 13, 14, 15];
 const valueOfTheParameter = make_avg (theArray);
-console.log(valueOfTheParameter) */
-/* 
+console.log(valueOfTheParameter)
+
 function count_zero(number){
     if(number.includes(number) === '0' ){
        console.log(number)
@@ -39,7 +39,7 @@ function count_zero(number){
    }
 }
 const theNumber = count_zero('1010101')
-console.log(theNumber) */
+console.log(theNumber)
 
 function odd_even(number){
     // console.log(number)
