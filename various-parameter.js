@@ -28,8 +28,8 @@ function doDoubleOrTriple(number, doDouble){
 }
 
 const theVlaue = doDoubleOrTriple(5, false)
-// console.log(theVlaue)
-const theVlaue1 = doDoubleOrTriple (5, true)
+// console.log(theVlaue)/
+const theVlaue1 = doDoubleOrTriple (5, true) ()
 // console.log(theVlaue1)
 
 /* array paremeters */
